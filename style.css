@@ -18,7 +18,7 @@ body {
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 1rem 24rem 0rem;
-    /* gap: 20rem; */
+    gap: 2rem;
     /* max-width: 1440px; */
 
 }
@@ -106,7 +106,21 @@ a {
     font-size: 18px;
     font-weight: 700;
     border-radius: 8px;
-    border: none;
+    border: 2px solid #3882F6 ;
+}
+
+.hero button:hover {
+    color: #3882F6;
+    background-color: #E5E7EB;
+    border: 2px solid #E5E7EB ;
+}
+
+.hero button:focus {
+    border: 2px solid #E5E7EB ;
+}
+
+.hero button:focus:hover {
+    border: 2px solid #3882F6 ;
 }
 
 .hero img {
@@ -115,3 +129,59 @@ a {
     border-radius: 5px;
     padding: 0px;
 }
+
+/* miscellaneous section */
+
+.misc-section {
+    margin: 1rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.misc-section h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.misc-section .images {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    /* border: 1px solid red; */
+    /* flex: 1; */
+}
+
+.misc-section img {
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    max-width: 175px;
+    /* flex: 1; */
+    margin: 0px
+}
+
+.misc-section p {
+    max-width: 175px;
+    text-align: center;
+    /* border: 1px solid red; */
+    margin: 0;
+    font-size: 14px;
+    opacity: 0.5;
+    /* flex:  */
+}
+
+/* quote section */
+

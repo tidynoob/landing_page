@@ -89,7 +89,7 @@ a {
     font-size: 18px;
     color: #E5E7EB;
     text-align: left;
-    /* flex: 1; */
+    flex: 1;
     margin: 0px;
     padding: 0px;
     /* border: 1px solid red; */
@@ -133,18 +133,23 @@ a {
 /* miscellaneous section */
 
 .misc-section {
-    margin: 1rem 0 2rem;
+    padding: 3rem 24rem 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
+    min-height: 0;
+    min-width: 0;
 }
 
 .misc-section h1 {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
 }
 
 .misc-section .images {
@@ -152,7 +157,11 @@ a {
     justify-content: center;
     gap: 3rem;
     align-items: center;
+    min-width: 0;
+    min-height: 0;
+    /* flex: auto; */
     /* border: 1px solid red; */
+    flex-wrap: wrap;
 }
 
 .container {
@@ -162,15 +171,19 @@ a {
     align-items: center;
     gap: 2px;
     /* border: 1px solid red; */
-    /* flex: 1; */
+    /* flex: auto; */
+    min-width: 0;
+    min-height: 0;
 }
 
 .misc-section img {
     /* border: 1px solid red; */
     border-radius: 8px;
     max-width: 175px;
-    /* flex: 1; */
-    margin: 0px
+    min-width: 0;
+    min-height: 0;
+    flex: auto;
+    margin: 0px;
 }
 
 .misc-section p {
@@ -185,3 +198,35 @@ a {
 
 /* quote section */
 
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 3rem 30rem;
+
+
+}
+
+.quote-section .quote {
+    text-align: left;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic ;
+    color: #1F2937;
+    /* border: 1px solid red; */
+    margin: 0;
+
+}
+
+.quote-section .name {
+    text-align: right;
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F2937;
+    /* border: 1px solid red; */
+    margin: 0;
+}

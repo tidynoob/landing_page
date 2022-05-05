@@ -23,6 +23,15 @@ body {
 
 /* header */
 
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -30,8 +39,9 @@ body {
     /* border: 1px solid red; */
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 1rem 24rem 0rem;
+    padding: 1rem 24rem 1rem;
     gap: 2rem;
+    /* position: fixed; */
     /* max-width: 1440px; */
 
 }
@@ -55,7 +65,8 @@ ul {
 
 a {
     text-decoration: none;
-    color: #E5E7EB;;
+    color: #E5E7EB;
+    ;
 }
 
 /* hero */
@@ -119,13 +130,13 @@ a {
     font-size: 18px;
     font-weight: 700;
     border-radius: 8px;
-    border: 2px solid #3882F6 ;
+    border: 2px solid #3882F6;
 }
 
 .hero button:hover {
     color: #3882F6;
     background-color: #E5E7EB;
-    border: 2px solid #E5E7EB ;
+    border: 2px solid #E5E7EB;
 }
 
 /* .hero button:focus {
@@ -217,7 +228,7 @@ a {
     text-align: left;
     font-size: 36px;
     font-weight: lighter;
-    font-style: italic ;
+    font-style: italic;
     color: #1F2937;
     /* border: 1px solid red; */
     margin: 0;
@@ -275,13 +286,13 @@ a {
 }
 
 .signup button {
-        padding: 8px 32px;
-        background-color: #3882F6;
-        color: #E5E7EB;
-        font-size: 16px;
-        font-weight: 700;
-        border-radius: 8px;
-        border: 2px solid #E5E7EB ;
+    padding: 8px 32px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: 2px solid #E5E7EB;
 }
 
 .signup button:hover {
@@ -291,5 +302,5 @@ a {
     font-size: 16px;
     font-weight: 700;
     border-radius: 8px;
-    border: 2px solid #E5E7EB ;
+    border: 2px solid #E5E7EB;
 }

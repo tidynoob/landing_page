@@ -256,7 +256,7 @@ a {
     align-items: center;
     justify-content: space-between;
     background-color: #3882F6;
-    padding: 2rem 10rem;
+    padding: 2.5rem 10rem;
     border-radius: 8px;
     gap: 2rem;
 }
@@ -303,4 +303,22 @@ a {
     font-weight: 700;
     border-radius: 8px;
     border: 2px solid #E5E7EB;
+}
+
+/* footer section  */
+
+.footer {
+    padding: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #E5E7EB;
+    opacity: .85;
+    padding: 0rem;
+    margin: 0rem;
 }
